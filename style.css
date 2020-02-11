@@ -6,3 +6,41 @@ body {
 	background-size: cover;
 	height: 100vh;
 }
+nav {
+	width: 60vw;
+	height: 15vh;
+	position: relative;
+	margin: 1vh 20vw 1vh 20vw;
+}
+nav ul {
+	padding: 0;
+	margin: 0 auto;
+	width: 60vw;
+	list-style: none;
+	display: inline;
+	float: right;
+}
+nav li {
+	display: inline;
+	float: left;
+	height: 15vh;
+}
+nav a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	width: 10vw;
+	margin: 8% 0;
+	font-size: 1.5vw;
+}
+.logobg {
+	width: 10vw;
+	background: url(logo3.png) no-repeat;
+	background-position: top left;
+	background-size: contain;
+}
+.firstbutton {
+	margin-left: 20vw;
+}
