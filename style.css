@@ -143,12 +143,15 @@ body {
   	}
   	nav a {
 	  	width: 100%;
-	  	text-align: center;
+		text-align: top;
 		font-size: 0px;
-  	}
+		height: 40px;
+		margin: 0;
+	}
 	.logobg {
 		width: 100vw;
 		background: linear-gradient(to right, #24CCAA, #A2DB95);
+		height: 70px;
 		margin: 0;
 	}
 	.currentpage {
