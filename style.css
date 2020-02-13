@@ -4,7 +4,6 @@ body {
 		background: url(bg.jpg) no-repeat;
 		background-position: center center;
 		background-size: cover;
-		height: 100vh;
 		width: 100vw;
 		margin: 0;
 	}
@@ -54,16 +53,16 @@ body {
 		width: 70px;
 		background-color: white;
 	}
-	.basecontainer {
-		height: 100px;
-		background-color: white;
-		
-	}
 	.mobilelogo {
 		display:none;
 	}
-	nav a#pull {
-		display:none;
+	.basecontainer {
+		height: 800px;
+		width: 1000px;
+		margin: 40px auto;
+		background-color: white;
+		border-radius: 10px;
+		opacity: 0.8;
 	}
 }
 @media only screen and (max-width:1034px) {
@@ -113,9 +112,12 @@ body {
 		background-color: white;
 	}
 	.basecontainer {
-		height: 100px;
+		height: 800px;
+		width: 744px;
+		margin: 40px auto;
 		background-color: white;
-		
+		border-radius: 10px;
+		opacity: 0.8;
 	}
 	.mobilelogo {
 		display:none;
@@ -126,7 +128,7 @@ body {
 }
 @media screen and (max-width: 743px) {
 	nav {
-  		height: auto;
+  		height: 111px;
 		width: 100vw;
   	}
   	nav ul {
@@ -158,7 +160,12 @@ body {
 		display: none;
 	}
 	.basecontainer {
-		margin: 100px;
+		height: 800px;
+		width: 100vw;
+		margin: 0 0;
+		background-color: white;
+		border-radius: 0px;
+		opacity: 0.8;
 	}
 	.mobilelogo {
 		display: block;
