@@ -6,6 +6,7 @@ body {
 		background-size: cover;
 		width: 100vw;
 		margin: 0;
+		font-family: "Roboto", sans-serif;
 	}
 @media only screen and (min-width:1035px) {
 	nav {
@@ -64,6 +65,18 @@ body {
 		border-radius: 10px;
 		opacity: 0.8;
 	}
+	.endline {
+		height: 60px;
+		background-color: #6E6E6E;
+		border-top: 1px solid #232323;
+	}
+	.endtext {
+		margin: 20px auto;
+		text-align: center;
+		color: white;
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+	}
 }
 @media only screen and (max-width:1034px) {
 	nav {
@@ -118,12 +131,23 @@ body {
 		background-color: white;
 		border-radius: 10px;
 		opacity: 0.8;
+		display: inline-block;
 	}
 	.mobilelogo {
 		display:none;
 	}
-	nav a#pull {
-		display:none;
+	
+	.endline {
+		height: 60px;
+		background-color: #6E6E6E;
+		border-top: 1px solid #232323;
+	}
+	.endtext {
+		margin: 20px auto;
+		text-align: center;
+		color: white;
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
 	}
 }
 @media screen and (max-width: 743px) {
@@ -165,7 +189,7 @@ body {
 		margin: 0 0;
 		background-color: white;
 		border-radius: 0px;
-		opacity: 0.7;
+		opacity: 0.8;
 	}
 	.mobilelogo {
 		display: block;
@@ -196,6 +220,18 @@ body {
 		background: url(shop.jpg) no-repeat;
 		background-size: cover;
 		background-position: center;
+	}
+	.endline {
+		height: 60px;
+		background-color: #6E6E6E;
+		border-top: 1px solid #232323;
+	}
+	.endtext {
+		margin: 20px auto;
+		text-align: center;
+		color: white;
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
 	}
 }
 nav a:hover {
