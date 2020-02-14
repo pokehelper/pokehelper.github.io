@@ -131,13 +131,13 @@ body {
 		background-color: white;
 		border-radius: 10px;
 		opacity: 0.8;
-		display: inline-block;
 	}
 	.mobilelogo {
 		display:none;
 	}
 	
 	.endline {
+		margin: auto;
 		height: 60px;
 		background-color: #6E6E6E;
 		border-top: 1px solid #232323;
