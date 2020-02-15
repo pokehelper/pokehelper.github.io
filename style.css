@@ -184,12 +184,13 @@ body {
 		display: none;
 	}
 	.basecontainer {
-		height: 800px;
+		height: 1100px;
 		width: 100vw;
 		margin: 0 0;
 		background-color: rgba(255,255,255,0.80);
 		border-radius: 0px;
 		padding: 20px 0;
+		display: inline-block;
 	}
 	.mobilelogo {
 		display: block;
