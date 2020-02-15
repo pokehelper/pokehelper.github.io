@@ -61,9 +61,9 @@ body {
 		height: 800px;
 		width: 1000px;
 		margin: 40px auto;
-		background-color: white;
+		background-color: rgba(255,255,255,0.80);
 		border-radius: 10px;
-		opacity: 0.8;
+		padding: 100px 0;
 	}
 	.endline {
 		height: 60px;
@@ -128,9 +128,9 @@ body {
 		height: 800px;
 		width: 744px;
 		margin: 40px auto;
-		background-color: white;
+		background-color: rgba(255,255,255,0.80);
 		border-radius: 10px;
-		opacity: 0.8;
+		padding: 72px 0;
 	}
 	.mobilelogo {
 		display:none;
@@ -187,9 +187,9 @@ body {
 		height: 800px;
 		width: 100vw;
 		margin: 0 0;
-		background-color: white;
+		background-color: rgba(255,255,255,0.80);
 		border-radius: 0px;
-		opacity: 0.8;
+		padding: 20px 0;
 	}
 	.mobilelogo {
 		display: block;

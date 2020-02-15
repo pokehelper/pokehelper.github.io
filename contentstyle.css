@@ -1,33 +1,54 @@
 @charset "utf-8";
 /* CSS Document */
 @media only screen and (min-width:1035px) {
-	.event {
-		padding: 60px 100px;
+	.event { 
+		padding: 30px 0px 0px 290px;
 		font-size: 30px;
-		color: #44696c;
-		
+		color: #44696c;	
 	}
 	.eTimer {
 		margin-left: 21px;
 	}
+	.timerbox {
+		height: 150px;
+		width: 800px;
+		margin: 0px auto;
+		background: url(rhyhorncd.jpg);
+		box-shadow: 0 0 10px rgba(0,0,0,0.4);
+	}
 }
 @media only screen and (max-width:1034px) {
 	.event {
-		padding: 50px 110px 0 130px;
+		padding: 30px 0px 0 190px;
 		font-size: 30px;
 		color: #44696c;
 	}
 	.eTimer {
-		margin-left: 100px;
+		margin-left: 50px;
+	}
+	.timerbox {
+		height: 150px;
+		width: 600px;
+		margin: 0px auto;
+		background: url(rhyhorncd.jpg);
+		box-shadow: 0 0 10px rgba(0,0,0,0.4);
 	}
 }
 @media screen and (max-width: 743px) {
 	.event {
-		padding: 10px 25px;
+		padding: 290px 0px 0px 50px;
 		font-size: 18px;
 		color: #44696c;
 	}
 	.eTimer {
-		margin-left: 0px;
+		margin-left: -30px;
+	}
+	.timerbox {
+		height: 400px;
+		width: 320px;
+		margin: 0px auto;
+		background: url(rhyhorncdmobile.jpg) no-repeat;
+		background-size: cover;
+		box-shadow: 0 0 10px rgba(0,0,0,0.4);
 	}
 }
