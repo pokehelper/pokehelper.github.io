@@ -14,7 +14,7 @@
 		height: 450px;
 		background: url(valentinesday2020.jpg) no-repeat;
 		background-position: center;
-		margin: 0 0px 10px 100px;
+		margin: 0 0px 10px 0px;
 		box-shadow: 0 0 10px rgba(0,0,0,0.4);
 		display: inline-block;
 		position: absolute;
@@ -34,7 +34,7 @@
 		background: url(raikou.jpg) no-repeat;
 		background-size: cover;
 		background-position: center;
-		margin: 0px 0px 10px 564px;
+		margin: 0px 0px 10px 464px;
 		box-shadow: 0 0 10px rgba(0,0,0,0.4);
 		position: relative;
 	}

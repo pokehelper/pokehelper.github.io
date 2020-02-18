@@ -59,11 +59,11 @@ body {
 	}
 	.basecontainer {
 		height: 800px;
-		width: 1000px;
+		width: 800px;
 		margin: 40px auto;
 		background-color: rgba(255,255,255,0.80);
 		border-radius: 10px;
-		padding: 100px 0 80px;
+		padding: 100px;
 	}
 	.endline {
 		height: 60px;
@@ -125,12 +125,12 @@ body {
 		background-color: white;
 	}
 	.basecontainer {
-		height: 650px;
+		height: 1270px;
 		width: 744px;
 		margin: 40px auto;
 		background-color: rgba(255,255,255,0.80);
 		border-radius: 10px;
-		padding: 72px 0;
+		padding: 100px 0;
 	}
 	.mobilelogo {
 		display:none;
@@ -184,7 +184,7 @@ body {
 		display: none;
 	}
 	.basecontainer {
-		height: 1500px;
+		height: 2050px;
 		width: 100vw;
 		margin: 0 0;
 		background-color: rgba(255,255,255,0.80);

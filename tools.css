@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (min-width:1035px) {
+	.toolbox {
+		height: 200px;
+		width: 200px;
+		margin: 0 30px 60px;
+		display: inline-block;
+		border-radius: 10px;
+		border: 2px solid #44696c;
+		box-shadow: 0 0 10px rgba(0,0,0,0.4);
+		background: url(menuicons/errorpic.jpg);
+	}
+	.pokedex {
+		background: url(menuicons/pokedex.jpg);
+	}
+}
+@media only screen and (max-width:1034px) {
+	.toolbox {
+		height: 200px;
+		width: 200px;
+		margin: 0 0px 60px 110px;
+		display: inline-block;
+		border-radius: 10px;
+		border: 2px solid #44696c;
+		box-shadow: 0 0 10px rgba(0,0,0,0.4);
+		background: url(menuicons/errorpic.jpg);
+	}
+	.pokedex {
+		background: url(menuicons/pokedex.jpg);
+	}
+}
+@media screen and (max-width: 743px) {
+	.toolbox {
+		height: 200px;
+		width: 200px;
+		margin: 20px auto;
+		display: block;
+		border-radius: 10px;
+		border: 2px solid #44696c;
+		box-shadow: 0 0 10px rgba(0,0,0,0.4);
+		background: url(menuicons/errorpic.jpg);
+	}
+	.pokedex {
+		background: url(menuicons/pokedex.jpg);
+	}
+}
