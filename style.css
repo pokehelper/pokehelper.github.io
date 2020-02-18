@@ -63,7 +63,7 @@ body {
 		margin: 40px auto;
 		background-color: rgba(255,255,255,0.80);
 		border-radius: 10px;
-		padding: 100px 0;
+		padding: 100px 0 80px;
 	}
 	.endline {
 		height: 60px;
@@ -125,7 +125,7 @@ body {
 		background-color: white;
 	}
 	.basecontainer {
-		height: 800px;
+		height: 650px;
 		width: 744px;
 		margin: 40px auto;
 		background-color: rgba(255,255,255,0.80);
@@ -184,7 +184,7 @@ body {
 		display: none;
 	}
 	.basecontainer {
-		height: 1100px;
+		height: 1500px;
 		width: 100vw;
 		margin: 0 0;
 		background-color: rgba(255,255,255,0.80);

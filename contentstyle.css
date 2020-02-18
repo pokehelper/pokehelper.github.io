@@ -46,13 +46,24 @@
 		position: absolute;
 		text-shadow: 0px 0px 10px rgba(0,0,0,1);
 	}
-	.timerbox {
+	.widebox {
 		height: 150px;
 		width: 800px;
 		margin: 0px auto;
-		background: url(rhyhorncd.jpg);
 		box-shadow: 0 0 10px rgba(0,0,0,0.4);
 	}
+	.timerbox {
+		background: url(rhyhorncd.jpg);
+	}
+	.nestmigration {
+		background: url(nestmigration.jpg);
+		margin-top: 15px;
+	}
+	.nesttimer {
+		padding: 30px 250px 0px 100px;
+		text-align: center;
+	}
+
 }
 @media only screen and (max-width:1034px) {
 	.event {
@@ -100,12 +111,26 @@
 		position: absolute;
 		text-shadow: 0px 0px 10px rgba(0,0,0,1);
 	}
-	.timerbox {
+	.widebox {
 		height: 150px;
 		width: 600px;
 		margin: 0px auto;
-		background: url(rhyhorncd.jpg);
 		box-shadow: 0 0 10px rgba(0,0,0,0.4);
+	}
+	.timerbox {
+		background: url(rhyhorncd.jpg);
+	}
+	.nestmigration {
+		background: url(nestmigration.jpg);
+		background-position: right;
+		margin-top: 15px;
+	}
+	.nesttimer {
+		padding: 30px 200px 0px 70px;
+		text-align: center;
+	}
+	.nstTimer {
+		margin: 0;
 	}
 }
 @media screen and (max-width: 743px) {
@@ -154,12 +179,26 @@
 		position: absolute;
 		text-shadow: 0px 0px 10px rgba(0,0,0,1);
 	}
-	.timerbox {
+	.widebox {
 		height: 400px;
 		width: 320px;
 		margin: 20px auto;
+		box-shadow: 0 0 10px rgba(0,0,0,0.4);
+	}
+	.timerbox {
 		background: url(rhyhorncdmobile.jpg) no-repeat;
 		background-size: cover;
-		box-shadow: 0 0 10px rgba(0,0,0,0.4);
+	}
+	.nestmigration {
+		background: url(nestmigrationmobile.jpg) no-repeat;
+		background-size: cover;
+		margin-top: 15px;
+		text-align: left;
+	}
+	.nesttimer {
+		padding: 285px 0px 0px;
+	}
+	.nstTimer {
+		margin-left: 0px;
 	}
 }
